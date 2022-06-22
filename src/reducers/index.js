@@ -1,6 +1,7 @@
 import { combineReducers } from "redux";
+import postsReducer from './postReducer';
 
 
 export default combineReducers({
-    replaceMe: () => 'Valid reducer to remove error message'
-});
+    posts: postsReducer
+});  
